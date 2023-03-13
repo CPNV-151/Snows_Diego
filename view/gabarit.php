@@ -66,6 +66,9 @@
                             <ul class="nav nav-pills ddmenu">
                                 <li><a href="index.php?action=home">Home</a></li>
                             </ul>
+                            <ul class="nav nav-pills ddmenu">
+                                <li><a href="index.php?action=snows">Snows</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

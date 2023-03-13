@@ -2,12 +2,19 @@
 
 session_start();
 require "controller/navigation.php";
+require "controller/snowsController.php";
 
 if (isset($_GET['action'])) {
   $action = $_GET['action'];
   switch ($action) {
       case 'home' :
           home();
+          break;
+      case 'snows' :
+          displaySnows();
+          break;
+      case 'snow' :
+          snow($_GET['code']);
           break;
       default :
           lost();
